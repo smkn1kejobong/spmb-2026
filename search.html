@@ -1,37 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>SPMB SMK NEGERI 1 KEJOBONG 2026</title>
+  <title>SPMB SMK NEGERI 1 KEJOBONG 2026</title>
 
-<style>
-body{
-    margin:0;
-}
+  <style>
+    html,body{
+      margin:0;
+      padding:0;
+      width:100%;
+      height:100%;
+      overflow:hidden;
+    }
 
-iframe{
-    width:100%;
-    border:none;
-}
-</style>
+    iframe{
+      width:100%;
+      height:100vh;
+      border:none;
+    }
+  </style>
 </head>
 
 <body>
-
 <iframe
 id="frame"
 src="https://script.google.com/macros/s/AKfycbz1zxUOXAd6zPvX5nizmCBefAWJf6MCXGMJj6Qy92jetciDqMNi1Xn56Mw3bJm-eQeWiQ/exec?page=searchbynisn">
 </iframe>
-
-<script>
-window.addEventListener("message", function(event){
-
-    if(event.data.height){
-        document.getElementById("frame").style.height =
-            event.data.height + "px";
-    }
-
-});
-</script>
 
 </body>
 </html>
